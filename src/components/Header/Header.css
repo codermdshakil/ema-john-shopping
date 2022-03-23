@@ -2,13 +2,10 @@
 /* nav style start from here  */
 nav{
     display: flex;
-    height: 80px;
-    padding:0px 130px;
     align-items: center;
     background-color:#1C2B35;
-    justify-content: space-between;
 }
-.nav-links a{
+.nav-item{
     color: #fff;
     font-size: 17px;
     cursor: pointer;
@@ -17,12 +14,12 @@ nav{
     font-style: normal;
     letter-spacing: 0.005em;
     text-decoration: none;
-    margin-right: 36px;
-    transition: .3s ease-in;
+    margin-right: 22px;
+    transition: .2s ease-in;
 }
-.nav-links a:hover{
+.nav-item:hover{
     color:#FF9900;
 }
-.nav-links a:nth-child(4){
+.nav-item:nth-child(4){
     margin-right: 0;
 }
